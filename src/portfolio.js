@@ -1,21 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://daryfmn.github.io',
+  title: 'MDF.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Muhammad Dary Fadhlurrohman',
+  role: 'Full Stack Developer',
+  picture: 'profile.jpeg',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Motivated ICT student pursuing a Bachelor of Information and Communication Technology (Honours) at Asia e University, specializing in Full Stack Development through an Associate Degree at Universitas Indonesia (CEP-CCIT-FTUI). Passionate about building responsive, user-focused web applications and eager to contribute to real-world projects.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/muhammad-fadhlurrohman-566b8840b',
+    github: 'https://github.com/daryfmn',
   },
 }
 
@@ -23,30 +23,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Imagix - Flutter Mobile App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'A mobile application built with Flutter and Dart, featuring a Supabase backend for authentication, database, and storage integration.',
+    stack: ['Flutter', 'Dart', 'Supabase'],
+    sourceCode: 'https://github.com/korehitone/imagix.git',
+    livePreview: 'https://github.com/korehitone/imagix/releases/tag/imagix-1.0.1-rc',
   },
   {
-    name: 'Project 2',
+    name: 'Online Book Store - Web App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'A web-based bookstore frontend built with CodeIgniter 4 and PHP, featuring a book catalog, shopping cart, and user profile pages.',
+    stack: ['CodeIgniter 4', 'PHP', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/daryfmn/bookstoreCI.git',
+    livePreview: 'https://github.com/daryfmn/bookstoreCI.git',
   },
   {
-    name: 'Project 3',
+    name: 'Online Book Store - RESTful API',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A RESTful API for an online bookstore built with Spring Boot and Java, with full CRUD endpoints for books, categories, customers, and cart.',
+    stack: ['Spring Boot', 'Java', 'MySQL', 'Postman'],
+    sourceCode: 'https://github.com/korehitone/bookstore',
+    livePreview: 'https://github.com/korehitone/bookstore',
   },
 ]
 
@@ -55,21 +53,24 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'SQL',
+  'Java',
+  'PHP',
+  'Dart',
+  'MySQL',
+  'MongoDB',
+  'Spring Boot',
+  'CodeIgniter 4',
+  'Flutter',
+  'Figma',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'DevOps',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'd.fadhlurrohman.id@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

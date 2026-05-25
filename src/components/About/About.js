@@ -35,9 +35,9 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={`${process.env.PUBLIC_URL}/CV_Dary_Fadhlurrohman.pdf`} target='_blank' rel='noreferrer'>
             <span type='button' className='btn btn--outline'>
-              Resume
+              CV
             </span>
           </a>
         )}
