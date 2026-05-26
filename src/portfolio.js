@@ -58,7 +58,6 @@ const skills = [
   'Java',
   'PHP',
   'Dart',
-  'MySQL',
   'MongoDB',
   'Spring Boot',
   'CodeIgniter 4',

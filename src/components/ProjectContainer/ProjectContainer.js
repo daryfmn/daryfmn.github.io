@@ -1,6 +1,7 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
+import skillIcons from '../Skills/SkillIcons'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
@@ -13,7 +14,6 @@ const ProjectContainer = ({ project }) => (
         : `${process.env.PUBLIC_URL}/images/${project.image}`
     }
     alt={`${project.name} screenshot`}
-    style={{ width: '100%', objectFit: 'cover' }}
     />
     )}
 
@@ -24,6 +24,14 @@ const ProjectContainer = ({ project }) => (
       <ul className='project__stack'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
+            {skillIcons[item] && (
+              <img
+                src={`https://cdn.simpleicons.org/${skillIcons[item]}`}
+                alt=''
+                width={14}
+                height={14}
+              />
+            )}
             {item}
           </li>
         ))}

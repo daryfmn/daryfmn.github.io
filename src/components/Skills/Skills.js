@@ -1,5 +1,6 @@
 import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
+import skillIcons from './SkillIcons'
 import './Skills.css'
 
 const Skills = () => {
@@ -11,6 +12,14 @@ const Skills = () => {
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
+            {skillIcons[skill] && (
+              <img
+                src={`https://cdn.simpleicons.org/${skillIcons[skill]}`}
+                alt=''
+                width={16}
+                height={16}
+              />
+            )}
             {skill}
           </li>
         ))}
