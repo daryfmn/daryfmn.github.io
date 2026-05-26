@@ -24,6 +24,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Imagix - Flutter Mobile App',
+    image: 'imagix.png',
     description:
       'A mobile application built with Flutter and Dart, featuring a Supabase backend for authentication, database, and storage integration.',
     stack: ['Flutter', 'Dart', 'Supabase'],
@@ -32,19 +33,19 @@ const projects = [
   },
   {
     name: 'Online Book Store - Web App',
+    image: 'bookstore_web.png',
     description:
       'A web-based bookstore frontend built with CodeIgniter 4 and PHP, featuring a book catalog, shopping cart, and user profile pages.',
     stack: ['CodeIgniter 4', 'PHP', 'HTML', 'CSS'],
     sourceCode: 'https://github.com/daryfmn/bookstoreCI.git',
-    livePreview: 'https://github.com/daryfmn/bookstoreCI.git',
   },
   {
     name: 'Online Book Store - RESTful API',
+    image: 'bookstore_api.png',
     description:
       'A RESTful API for an online bookstore built with Spring Boot and Java, with full CRUD endpoints for books, categories, customers, and cart.',
     stack: ['Spring Boot', 'Java', 'MySQL', 'Postman'],
     sourceCode: 'https://github.com/korehitone/bookstore',
-    livePreview: 'https://github.com/korehitone/bookstore',
   },
 ]
 
